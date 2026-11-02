@@ -23,6 +23,10 @@ Student Masterlist Module
 -Uses the existing registrar login and authentication system. No separate registrar account is required.
 
 
+
+
+
+
 Adjustable Document Zoom
 
 -Added adjustable zoom controls when viewing uploaded documents in the system.
@@ -39,6 +43,10 @@ Adjustable Document Zoom
 
 
 
+
+
+
+
 Files Modified and Added
 
 File
@@ -50,9 +58,11 @@ index.html
 Added the Student Masterlist interface and document zoom controls.
 
 
+
 styles.css
 
 Added styling for the Masterlist and document preview zoom controls.
+
 
 
 script.js
@@ -60,14 +70,20 @@ script.js
 Added Masterlist loading, searching, filtering, and document zoom functionality.
 
 
+
 api/registrar/masterlist.php
 
 Added an API endpoint for retrieving approved student records and payment information.
 
 
+
 database/migrations/001_add_section_to_applications.sql
 
 Added the section_name column to support student section information.
+
+
+
+
 
 
 Database Updates
